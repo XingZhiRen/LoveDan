@@ -96,7 +96,7 @@
 
 </head>
 
-<body>
+<body id="thumbnail_canvas">
 <!--更改为你女朋友的头像-->
 <div class="cs">
     <img id="logo" src="./image/dan.jpg">
@@ -107,6 +107,8 @@
     <br/>
     <span id="span_dt_dt"></span>
 </p>
+<canvas id="header_canvas" style="position:absolute;bottom:0"></canvas>
+<script src="js/bubble.js"></script>
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
